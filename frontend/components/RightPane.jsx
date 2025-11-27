@@ -58,6 +58,10 @@ const RightPane = ({
               <span className="font-medium">Sub-Category:</span>{" "}
               {selectedDataPoint.subcategory ?? "N/A"}
             </div>
+            <div>
+              <span className="font-medium">Sector:</span>{" "}
+              {selectedDataPoint.sector ?? "N/A"}
+            </div>
           </div>
         )}
 
